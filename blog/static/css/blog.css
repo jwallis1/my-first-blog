@@ -1,12 +1,12 @@
 h1 a {
-    color: #FCA206;
-    font-family: 'Lobster';
+    color: #228B22;
+    font-family: 'Baloo Bhai';
 }
 body {
     padding-left: 15px;
 }
 .page-header {
-    background-color: #ff9400;
+    background-color: #228b22;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Baloo Bhai', cursive;
 }
 
 .date {
@@ -52,6 +52,6 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 .add-sign {
-    position:absolute;
-    top:70px;
+    position:relative;
+    top:30px;
 }
