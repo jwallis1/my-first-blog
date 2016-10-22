@@ -19,9 +19,9 @@ import django.contrib.auth.views
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = [
+urlpatterns = pattern('',
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/login/$', django.contrib.auth.views.login)
     url(r'^accounts/logout/$', views.logout, name='logout', kwargs={'next_page': '/'}),
-    url(r'', include('blog.urls'))
-]
+    url(r'', include('blog.urls')),
+)
