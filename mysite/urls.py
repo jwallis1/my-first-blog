@@ -12,6 +12,11 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+Note: /Users/Jacqui/djangogirls/mysite/urls.py:26: RemovedInDjango110Warning: 
+django.conf.urls.patterns() is deprecated and will be removed in Django 1.10.
+Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  url(r'', include('blog.urls')),
+
 """
 from django.conf.urls import include, url, patterns
 from django.contrib.auth import views
